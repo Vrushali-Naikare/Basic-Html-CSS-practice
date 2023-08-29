@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedbackFrom</title>
+    <link rel="stylesheet" href="Feedbackfrom_style.css">
+</head> 
+<body>
+    <h2>Feedback Form</h2>
+    <form>
+        <div class="FeedbackFrom">
+            <label for="browsers">Category:</label>
+            <input list="browsers" >
+            <datalist id="browsers">
+                <option value="general">
+                <option value="technical">
+                <option value="customer_service">
+            </datalist>
+            </input>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
+
+</body>
+</html>
